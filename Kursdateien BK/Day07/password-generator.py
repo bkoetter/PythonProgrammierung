@@ -12,7 +12,7 @@ def get_password(chars: str, opts: dict):
 
 def get_user_input():
     return {
-        'password_length': int(input('Wie lang sollen die Passwörter sein? ')),
+        'password_length': int(input('Wie lang soll das jeweilige Passwörter sein? ')),
         'password_count': int(input('Wie viele Passwörter sollen generiert werden? ')),
     }
 
