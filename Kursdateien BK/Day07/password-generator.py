@@ -18,13 +18,10 @@ def get_user_input():
 
 
 def main():
-    passwords = []
     opts = get_user_input()
     chars = get_chars()
     for _ in range(opts['password_count']):
-        passwords.append(get_password(chars, opts))
-    for password in passwords:
-        print(password)
+        print(get_password(chars, opts))
 
 
 if __name__ == '__main__':
